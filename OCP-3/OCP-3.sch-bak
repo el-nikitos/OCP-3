@@ -14,20 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L eo-engine:МК*ATmega88*TQFP32 DD2
-U 1 1 61923900
-P 14750 10000
-F 0 "DD2" H 18150 10350 138 0000 C CNN
-F 1 "МК*ATmega88*TQFP32" H 17500 8400 50  0001 C CNN
-F 2 "N_DD:микросхема_ATMEGA-8-161AU" H 14850 10000 50  0001 C CNN
-F 3 "" H 14850 10000 50  0001 C CNN
-F 4 "ATmega48" H 16750 5150 138 0000 C CNN "INFO"
-F 5 "137" H 15050 10200 50  0001 C CNN "COST"
-F 6 "https://www.terraelectronica.ru/product/1908181" H 14900 10350 50  0001 C CNN "LINK"
-	1    14750 10000
-	1    0    0    -1  
-$EndComp
-$Comp
 L eo-engine:МК*ATmega168*TQFP32 DD1
 U 1 1 61926053
 P 7250 10000
@@ -327,87 +313,6 @@ Wire Wire Line
 	26000 14500 28150 14500
 Wire Wire Line
 	26000 14500 26000 13750
-$Comp
-L eo-engine:Вилка*PLD*6контактов*2ряда*вертикальная*AVR XP3
-U 1 1 6194E68F
-P 16000 8000
-F 0 "XP3" H 16900 8300 138 0000 L CNN
-F 1 "Вилка*PLD*6контактов*2ряда*вертикальная*AVR" H 16000 8500 50  0001 C CNN
-F 2 "N_X:Вилка_PLD6_вертикальная_AB" H 16000 8700 50  0001 C CNN
-F 3 "" H 16000 8000 50  0001 C CNN
-F 4 "PLD6" H 16500 7100 138 0000 L CNN "INFO"
-F 5 "https://www.chipdip.ru/product/pld-6" H 16000 8600 50  0001 C CNN "LINK"
-F 6 "8" H 16000 8000 50  0001 C CNN "COST"
-	1    16000 8000
-	1    0    0    -1  
-$EndComp
-Text Label 19750 10000 2    138  ~ 0
-SCK.S
-Text Label 13750 14200 0    138  ~ 0
-MOSI.S
-Text Label 13750 14500 0    138  ~ 0
-MISO.S
-Text Label 19750 13600 2    138  ~ 0
-RES.S
-Wire Wire Line
-	18750 13600 19900 13600
-Wire Wire Line
-	18750 10000 19900 10000
-Entry Wire Line
-	20000 10100 19900 10000
-Entry Wire Line
-	20000 13700 19900 13600
-Entry Wire Line
-	13500 14300 13600 14200
-Entry Wire Line
-	13500 14400 13600 14500
-Wire Wire Line
-	14750 14200 13600 14200
-Wire Wire Line
-	13600 14500 14750 14500
-Wire Bus Line
-	13500 20000 20000 20000
-Text Label 13750 8300 0    138  ~ 0
-SCK.S
-Entry Wire Line
-	13500 8400 13600 8300
-Wire Wire Line
-	13600 8300 16000 8300
-Entry Wire Line
-	13500 8100 13600 8000
-Wire Wire Line
-	13600 8000 16000 8000
-Text Label 13750 8000 0    138  ~ 0
-MISO.S
-Entry Wire Line
-	13500 8700 13600 8600
-Wire Wire Line
-	13600 8600 14750 8600
-Text Label 13750 8600 0    138  ~ 0
-RES.S
-$Comp
-L eo-engine:#метка-GND #GND9
-U 1 1 6196ECEF
-P 17750 8750
-F 0 "#GND9" H 17750 8800 50  0001 C CNN
-F 1 "#метка-GND" H 17800 8900 50  0001 C CNN
-F 2 "" H 17750 8750 50  0001 C CNN
-F 3 "" H 17750 8750 50  0001 C CNN
-	1    17750 8750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	17500 8600 17750 8600
-Wire Wire Line
-	17750 8600 17750 8750
-Wire Wire Line
-	17500 8000 18000 8000
-Wire Wire Line
-	17500 8300 19900 8300
-Entry Wire Line
-	20000 8400 19900 8300
-Text Label 19750 8300 2    138  ~ 0
-MOSI.S
 Text Label 5750 14200 0    138  ~ 0
 MOSI.M
 Text Label 5750 14500 0    138  ~ 0
@@ -459,7 +364,6 @@ F 3 "" H 11000 8625 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11000 8600 11000 8625
-NoConn ~ 18750 10900
 NoConn ~ 11250 10900
 Wire Wire Line
 	11250 10300 12400 10300
@@ -483,42 +387,6 @@ Entry Wire Line
 	5500 11600 5600 11500
 Entry Wire Line
 	5500 11300 5600 11200
-Wire Wire Line
-	14750 10900 13600 10900
-Entry Wire Line
-	13500 11000 13600 10900
-Text Label 13750 10900 0    138  ~ 0
-VCC1.S
-Wire Wire Line
-	14750 10600 13600 10600
-Entry Wire Line
-	13500 10700 13600 10600
-Text Label 13750 10600 0    138  ~ 0
-GND1.S
-Wire Wire Line
-	14750 11500 13600 11500
-Entry Wire Line
-	13500 11600 13600 11500
-Text Label 13750 11500 0    138  ~ 0
-VCC2.S
-Wire Wire Line
-	14750 11200 13600 11200
-Entry Wire Line
-	13500 11300 13600 11200
-Text Label 13750 11200 0    138  ~ 0
-GND2.S
-Wire Wire Line
-	18750 10300 19900 10300
-Entry Wire Line
-	20000 10400 19900 10300
-Text Label 19750 10300 2    138  ~ 0
-AVCC.S
-Wire Wire Line
-	18750 11200 19900 11200
-Entry Wire Line
-	20000 11300 19900 11200
-Text Label 19750 11200 2    138  ~ 0
-AGND.S
 $Comp
 L eo-engine:Конденсатор*0,1мкФ*25В*0603 C4
 U 1 1 619A0B32
@@ -620,116 +488,6 @@ Text Label 12250 15500 2    138  ~ 0
 VCC1.M
 Text Label 12250 16250 2    138  ~ 0
 VCC2.M
-$Comp
-L eo-engine:Конденсатор*0,1мкФ*25В*0603 C9
-U 1 1 619F37B8
-P 17000 17000
-F 0 "C9" V 16700 16600 138 0000 L CNN
-F 1 "Конденсатор*0,1мкФ*25В*0603" H 16900 17100 50  0001 C CNN
-F 2 "N_RLC:Конденсатор_SMD_IEC_0603" H 17000 17000 50  0001 C CNN
-F 3 "" H 17000 17000 50  0001 C CNN
-F 4 "0,1мкФ 25В" V 17250 16150 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/863311" H 17000 17000 50  0001 C CNN "LINK"
-F 6 "0.26" H 17000 17000 50  0001 C CNN "COST"
-	1    17000 17000
-	0    1    1    0   
-$EndComp
-Entry Wire Line
-	13500 15400 13600 15500
-Wire Wire Line
-	13600 15500 16000 15500
-Entry Wire Line
-	20000 15600 19900 15500
-Wire Wire Line
-	17000 15500 17500 15500
-Entry Wire Line
-	20000 16350 19900 16250
-Entry Wire Line
-	19900 17000 20000 16900
-Wire Wire Line
-	17000 17000 17500 17000
-Entry Wire Line
-	13600 16250 13500 16150
-Wire Wire Line
-	13600 16250 16000 16250
-Entry Wire Line
-	13500 17100 13600 17000
-Wire Wire Line
-	13600 17000 16000 17000
-Wire Wire Line
-	16000 15500 16000 16250
-Connection ~ 16000 15500
-Wire Wire Line
-	16000 15500 16500 15500
-Connection ~ 17500 15500
-Wire Wire Line
-	17500 15500 19900 15500
-$Comp
-L eo-engine:#метка-3V3 #3V7
-U 1 1 619F37D3
-P 17500 15500
-F 0 "#3V7" H 17500 15450 50  0001 C CNN
-F 1 "#метка-3V3" H 17450 15350 50  0001 C CNN
-F 2 "" H 17500 15500 50  0001 C CNN
-F 3 "" H 17500 15500 50  0001 C CNN
-	1    17500 15500
-	1    0    0    -1  
-$EndComp
-Connection ~ 16000 16250
-Wire Wire Line
-	16000 16250 16000 17000
-Connection ~ 16000 17000
-Wire Wire Line
-	16000 17000 16500 17000
-Connection ~ 17500 17000
-Wire Wire Line
-	17500 17000 19900 17000
-Wire Wire Line
-	17500 17000 17500 16250
-Connection ~ 17500 16250
-Wire Wire Line
-	17500 16250 19900 16250
-Wire Wire Line
-	17500 16250 17500 15500
-$Comp
-L eo-engine:#метка-GND #GND8
-U 1 1 619F37E8
-P 16000 17250
-F 0 "#GND8" H 16000 17300 50  0001 C CNN
-F 1 "#метка-GND" H 16050 17400 50  0001 C CNN
-F 2 "" H 16000 17250 50  0001 C CNN
-F 3 "" H 16000 17250 50  0001 C CNN
-	1    16000 17250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16000 17000 16000 17250
-$Comp
-L eo-engine:Конденсатор*10мкФ*16В*0805 C8
-U 1 1 619F37F5
-P 17000 15500
-F 0 "C8" V 16700 15100 138 0000 L CNN
-F 1 "Конденсатор*10мкФ*16В*0805" H 16900 15600 50  0001 C CNN
-F 2 "N_RLC:Конденсатор_SMD_IEC_0805" H 17000 15500 50  0001 C CNN
-F 3 "" H 17000 15500 50  0001 C CNN
-F 4 "10мкФ 16В" V 17250 14700 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/863492" H 17000 15500 50  0001 C CNN "LINK"
-F 6 "0.89" H 17000 15500 50  0001 C CNN "COST"
-	1    17000 15500
-	0    1    1    0   
-$EndComp
-Text Label 13750 15500 0    138  ~ 0
-GND1.S
-Text Label 13750 16250 0    138  ~ 0
-GND2.S
-Text Label 13750 17000 0    138  ~ 0
-AGND.S
-Text Label 19750 15500 2    138  ~ 0
-VCC1.S
-Text Label 19750 16250 2    138  ~ 0
-VCC2.S
-Text Label 19750 17000 2    138  ~ 0
-AVCC.S
 Text Label 12250 17000 2    138  ~ 0
 AVCC.M
 $Comp
@@ -763,38 +521,6 @@ Wire Wire Line
 	7250 7850 7250 8600
 Wire Wire Line
 	7250 8600 8500 8600
-$Comp
-L eo-engine:#метка-3V3 #3V5
-U 1 1 61A26EEF
-P 14750 7000
-F 0 "#3V5" H 14750 6950 50  0001 C CNN
-F 1 "#метка-3V3" H 14700 6850 50  0001 C CNN
-F 2 "" H 14750 7000 50  0001 C CNN
-F 3 "" H 14750 7000 50  0001 C CNN
-	1    14750 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L eo-engine:Резистор*10кОм*0603 R10
-U 1 1 61A26F08
-P 14750 7250
-F 0 "R10" V 15016 7384 138 0000 L CNN
-F 1 "Резистор*10кОм*0603" H 14750 7850 50  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 14850 7750 50  0001 C CNN
-F 3 "" V 14750 7250 50  0001 C CNN
-F 4 "10кОм" V 15239 7384 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/2127758" H 14850 7750 50  0001 C CNN "LINK"
-F 6 "0,17" V 14750 7250 50  0001 C CNN "COST"
-	1    14750 7250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	14750 7000 14750 7250
-Wire Wire Line
-	14750 7850 14750 8600
-Connection ~ 14750 8600
-Wire Wire Line
-	14750 8600 16000 8600
 $Comp
 L eo-engine:Транзистор*npn*0,5А*45В*SOT23 VT6
 U 1 1 619A38A1
@@ -2613,7 +2339,7 @@ F 6 "250" H 3250 2500 50  0001 C CNN "COST"
 	1    0    0    -1  
 $EndComp
 $Comp
-L eo-engine:LDO*вход_18Вmax*выход_3,3В*ток_1,2АSOT-223 G1
+L OCP-3-rescue:LDO*вход_18Вmax*выход_3,3В*ток_1,2АSOT-223-eo-engine G1
 U 1 1 61AEC90E
 P 12750 2500
 F 0 "G1" H 14250 2800 138 0000 C CNN
@@ -2947,10 +2673,6 @@ Wire Wire Line
 	4150 13850 4150 14000
 Wire Wire Line
 	4150 14000 5400 14000
-Wire Bus Line
-	12500 8000 13500 8000
-Wire Bus Line
-	20000 8000 21000 8000
 Entry Wire Line
 	5400 9500 5500 9600
 Entry Wire Line
@@ -3218,8 +2940,6 @@ Wire Wire Line
 	21100 19250 23500 19250
 Text Notes 7600 9750 0    138  ~ 0
 MASTER\n8 ВХОДОВ, 6 ВЫХОДОВ
-Text Notes 15050 9700 0    138  ~ 0
-SLAVE\n4 ВХОДА, 4 ВЫХОДА
 $Comp
 L eo-engine:Резистор*1кОм*0603 R12
 U 1 1 6327A26A
@@ -3286,20 +3006,6 @@ Entry Wire Line
 	12500 13400 12400 13300
 Text Label 12250 13300 2    138  ~ 0
 SCL
-Wire Wire Line
-	18750 13000 19900 13000
-Entry Wire Line
-	20000 13100 19900 13000
-Text Label 19750 13000 2    138  ~ 0
-SDA
-Wire Wire Line
-	18750 13300 19900 13300
-Entry Wire Line
-	20000 13400 19900 13300
-Text Label 19750 13300 2    138  ~ 0
-SCL
-NoConn ~ 18750 10600
-NoConn ~ 18750 11500
 $Comp
 L eo-engine:#метка-3V3 #3V4
 U 1 1 63BB8D91
@@ -3445,14 +3151,6 @@ Text Label 5750 12100 0    138  ~ 0
 MC.OUT5
 Text Label 5750 11800 0    138  ~ 0
 MC.OUT6
-Text Label 13750 13900 0    138  ~ 0
-MC.OUT7
-Text Label 13750 13600 0    138  ~ 0
-MC.OUT8
-Text Label 13750 13300 0    138  ~ 0
-MC.OUT9
-Text Label 13650 13000 0    138  ~ 0
-MC.OUT10
 Text Label 5750 10000 0    138  ~ 0
 MC.DIN7
 Text Label 12250 12700 2    138  ~ 0
@@ -3467,14 +3165,6 @@ Text Label 12250 11500 2    138  ~ 0
 MC.DIN3
 Text Label 12250 10600 2    138  ~ 0
 MC.DIN4
-Text Label 13750 10000 0    138  ~ 0
-MC.DIN12
-Text Label 19750 14500 2    138  ~ 0
-MC.DIN11
-Text Label 19750 14200 2    138  ~ 0
-MC.DIN10
-Text Label 19750 13900 2    138  ~ 0
-MC.DIN9
 Text Label 5750 10300 0    138  ~ 0
 MC.DIN8
 Wire Wire Line
@@ -3521,22 +3211,6 @@ Entry Wire Line
 	5500 11900 5600 11800
 Entry Wire Line
 	5500 12200 5600 12100
-Wire Wire Line
-	18750 13900 19900 13900
-Entry Wire Line
-	20000 14000 19900 13900
-Wire Wire Line
-	18750 14200 19900 14200
-Entry Wire Line
-	20000 14300 19900 14200
-Wire Wire Line
-	18750 14500 19900 14500
-Entry Wire Line
-	20000 14600 19900 14500
-Wire Wire Line
-	14750 10000 13600 10000
-Entry Wire Line
-	13500 10100 13600 10000
 Entry Wire Line
 	21100 11450 21000 11350
 Text Label 21250 11450 0    138  ~ 0
@@ -3549,24 +3223,6 @@ Text Label 5750 13600 0    138  ~ 0
 ETH.RES
 Wire Wire Line
 	5600 13600 7250 13600
-NoConn ~ 14750 11800
-NoConn ~ 14750 12100
-Wire Wire Line
-	14750 13000 13600 13000
-Entry Wire Line
-	13500 13100 13600 13000
-Wire Wire Line
-	14750 13300 13600 13300
-Entry Wire Line
-	13500 13400 13600 13300
-Wire Wire Line
-	14750 13900 13600 13900
-Entry Wire Line
-	13500 14000 13600 13900
-Wire Wire Line
-	14750 13600 13600 13600
-Entry Wire Line
-	13500 13700 13600 13600
 $Comp
 L eo-engine:ico*отверстие*М3 X3
 U 1 1 61B6C823
@@ -4675,13 +4331,6 @@ F 6 "11.9" H 59750 13500 50  0001 C CNN "COST"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 59750 14700
-NoConn ~ 14750 12400
-NoConn ~ 14750 12700
-NoConn ~ 14750 10300
-NoConn ~ 18750 11800
-NoConn ~ 18750 12100
-NoConn ~ 18750 12400
-NoConn ~ 18750 12700
 Wire Wire Line
 	57850 1500 59750 1500
 Wire Wire Line
@@ -5433,35 +5082,6 @@ Wire Wire Line
 	10500 7000 10500 7250
 Wire Wire Line
 	10500 7750 10500 8000
-$Comp
-L eo-engine:#метка-4...15V #4...15V3
-U 1 1 61F7D976
-P 18000 7000
-F 0 "#4...15V3" H 18000 6950 50  0001 C CNN
-F 1 "#метка-4...15V" H 17950 6850 50  0001 C CNN
-F 2 "" H 18000 7000 50  0001 C CNN
-F 3 "" H 18000 7000 50  0001 C CNN
-	1    18000 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L eo-engine:Диод*75В*0,2А*SOD-323 VD3
-U 1 1 61F7D983
-P 18000 7750
-F 0 "VD3" V 18250 7100 138 0000 L CNN
-F 1 "Диод*75В*0,2А*SOD-323" H 18000 8350 50  0001 C CNN
-F 2 "N_VD_HL:D_SOD-323_HandSoldering" H 18100 8250 50  0001 C CNN
-F 3 "" V 18000 7750 50  0001 C CNN
-F 4 "75В 0,2А" H 17800 7500 138 0001 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/242660" H 18000 7750 138 0001 C CNN "LINK"
-F 6 "3,3" H 18000 7750 138 0001 C CNN "COST"
-	1    18000 7750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	18000 7000 18000 7250
-Wire Wire Line
-	18000 7750 18000 8000
 Wire Wire Line
 	10000 3500 10000 3750
 Wire Wire Line
@@ -5476,8 +5096,6 @@ Wire Wire Line
 Connection ~ 9500 3100
 Wire Wire Line
 	9000 2500 10000 2500
-Text Label 17950 8000 2    138  ~ 0
-5V.S
 Text Label 10450 8000 2    138  ~ 0
 5V.M
 Wire Wire Line
@@ -5510,6 +5128,10 @@ Wire Wire Line
 Connection ~ 11750 3750
 Wire Wire Line
 	11750 3750 12500 3750
+Text Notes 9500 2000 0    138  ~ 0
+вход мб 12В,\nкондей заменить на 25В
+Wire Bus Line
+	12500 8000 21000 8000
 Wire Bus Line
 	5500 20000 12500 20000
 Wire Bus Line
@@ -5519,19 +5141,13 @@ Wire Bus Line
 Wire Bus Line
 	1500 2600 1500 13900
 Wire Bus Line
-	20000 8000 20000 20000
-Wire Bus Line
 	54500 1000 54500 21000
 Wire Bus Line
 	5500 8000 5500 20000
-Wire Bus Line
-	13500 8000 13500 20000
 Wire Bus Line
 	21000 8000 21000 20000
 Wire Bus Line
 	28250 1000 28250 20000
 Wire Bus Line
 	12500 8000 12500 20000
-Text Notes 9500 2000 0    138  ~ 0
-вход мб 12В,\nкондей заменить на 25В
 $EndSCHEMATC

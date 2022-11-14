@@ -3400,16 +3400,6 @@ Wire Wire Line
 Entry Wire Line
 	12500 11600 12400 11500
 Entry Wire Line
-	54500 7600 54600 7500
-Entry Wire Line
-	54500 6100 54600 6000
-Entry Wire Line
-	54500 4600 54600 4500
-Entry Wire Line
-	54500 3100 54600 3000
-Entry Wire Line
-	54500 1600 54600 1500
-Entry Wire Line
 	54500 13600 54600 13500
 Entry Wire Line
 	54500 15100 54600 15000
@@ -3417,386 +3407,6 @@ Entry Wire Line
 	54500 16600 54600 16500
 Entry Wire Line
 	54500 18100 54600 18000
-Entry Wire Line
-	54500 12100 54600 12000
-Entry Wire Line
-	54500 10600 54600 10500
-Entry Wire Line
-	54500 9100 54600 9000
-$Comp
-L eo-engine:Клеммник*шаг_3,5*5контактов*1ряд*вертикальная XP17
-U 1 1 6397FD5C
-P 59750 7500
-F 0 "XP17" H 59950 8050 138 0000 L CNN
-F 1 "Клеммник*шаг_3,5*5контактов*1ряд*вертикальная" H 59750 8000 50  0001 C CNN
-F 2 "N_X:Клеммник_15EDGVC-3.5-05P" H 59750 8200 50  0001 C CNN
-F 3 "" H 59750 7500 50  0001 C CNN
-F 4 "15EDGVC-3.5-05P" H 59750 6000 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/1294475" H 59750 8100 50  0001 C CNN "LINK"
-F 6 "11.9" H 59750 7500 50  0001 C CNN "COST"
-	1    59750 7500
-	1    0    0    -1  
-$EndComp
-Text Label 58500 7500 2    138  ~ 0
-DIN8
-Text Label 54750 7500 0    138  ~ 0
-MC.DIN8
-Connection ~ 55750 7500
-Wire Wire Line
-	55750 7500 54600 7500
-Connection ~ 56750 7500
-Wire Wire Line
-	55750 7500 55750 7750
-Wire Wire Line
-	56750 7500 55750 7500
-Connection ~ 55750 8250
-Wire Wire Line
-	55750 8250 56750 8250
-$Comp
-L eo-engine:Конденсатор*0,1мкФ*25В*0603 C22
-U 1 1 624495A1
-P 56750 8250
-F 0 "C22" H 56300 7850 138 0000 L CNN
-F 1 "Конденсатор*0,1мкФ*25В*0603" H 56650 8350 50  0001 C CNN
-F 2 "N_RLC:Конденсатор_SMD_IEC_0603" H 56750 8250 50  0001 C CNN
-F 3 "" H 56750 8250 50  0001 C CNN
-F 4 "0,1мкФ 25В" H 55350 8150 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/863311" H 56750 8250 50  0001 C CNN "LINK"
-F 6 "0.26" H 56750 8250 50  0001 C CNN "COST"
-	1    56750 8250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	56750 7500 56750 7750
-Wire Wire Line
-	57250 7500 56750 7500
-$Comp
-L eo-engine:#метка-GND #GND26
-U 1 1 62449592
-P 55750 8250
-F 0 "#GND26" H 55750 8300 50  0001 C CNN
-F 1 "#метка-GND" H 55800 8400 50  0001 C CNN
-F 2 "" H 55750 8250 50  0001 C CNN
-F 3 "" H 55750 8250 50  0001 C CNN
-	1    55750 8250
-	1    0    0    -1  
-$EndComp
-$Comp
-L eo-engine:Резистор*1кОм*0603 R58
-U 1 1 62449588
-P 57250 7500
-F 0 "R58" H 57550 7700 138 0000 C CNN
-F 1 "Резистор*1кОм*0603" H 57250 8100 50  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 57350 8000 50  0001 C CNN
-F 3 "" V 57250 7500 50  0001 C CNN
-F 4 "1кОм" H 57550 7300 138 0000 C CNN "INFO"
-F 5 "0,14" H 57250 7500 50  0001 C CNN "COST"
-F 6 "https://www.terraelectronica.ru/product/2128053" H 57250 7500 50  0001 C CNN "LINK"
-	1    57250 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L eo-engine:Стабилитрон*3,9В*SOD80 VD38
-U 1 1 6244957D
-P 55750 8250
-F 0 "VD38" V 56100 7600 138 0000 L CNN
-F 1 "Стабилитрон*3,9В*SOD80" H 55750 8850 50  0001 C CNN
-F 2 "N_VD_HL:SOD-80" H 55850 8750 50  0001 C CNN
-F 3 "" V 55750 8250 50  0001 C CNN
-F 4 "3,9В" V 55900 7650 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/567010" H 55750 8250 138 0001 C CNN "LINK"
-F 6 "1.4" H 55750 8250 138 0001 C CNN "COST"
-	1    55750 8250
-	0    -1   -1   0   
-$EndComp
-Text Label 58500 6000 2    138  ~ 0
-DIN9
-Text Label 54750 6000 0    138  ~ 0
-MC.DIN9
-Connection ~ 55750 6000
-Wire Wire Line
-	55750 6000 54600 6000
-Connection ~ 56750 6000
-Wire Wire Line
-	55750 6000 55750 6250
-Wire Wire Line
-	56750 6000 55750 6000
-Connection ~ 55750 6750
-Wire Wire Line
-	55750 6750 56750 6750
-$Comp
-L eo-engine:Конденсатор*0,1мкФ*25В*0603 C21
-U 1 1 62449567
-P 56750 6750
-F 0 "C21" H 56300 6350 138 0000 L CNN
-F 1 "Конденсатор*0,1мкФ*25В*0603" H 56650 6850 50  0001 C CNN
-F 2 "N_RLC:Конденсатор_SMD_IEC_0603" H 56750 6750 50  0001 C CNN
-F 3 "" H 56750 6750 50  0001 C CNN
-F 4 "0,1мкФ 25В" H 55350 6650 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/863311" H 56750 6750 50  0001 C CNN "LINK"
-F 6 "0.26" H 56750 6750 50  0001 C CNN "COST"
-	1    56750 6750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	56750 6000 56750 6250
-Wire Wire Line
-	57250 6000 56750 6000
-$Comp
-L eo-engine:#метка-GND #GND25
-U 1 1 62449558
-P 55750 6750
-F 0 "#GND25" H 55750 6800 50  0001 C CNN
-F 1 "#метка-GND" H 55800 6900 50  0001 C CNN
-F 2 "" H 55750 6750 50  0001 C CNN
-F 3 "" H 55750 6750 50  0001 C CNN
-	1    55750 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L eo-engine:Резистор*1кОм*0603 R57
-U 1 1 6244954E
-P 57250 6000
-F 0 "R57" H 57550 6200 138 0000 C CNN
-F 1 "Резистор*1кОм*0603" H 57250 6600 50  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 57350 6500 50  0001 C CNN
-F 3 "" V 57250 6000 50  0001 C CNN
-F 4 "1кОм" H 57550 5800 138 0000 C CNN "INFO"
-F 5 "0,14" H 57250 6000 50  0001 C CNN "COST"
-F 6 "https://www.terraelectronica.ru/product/2128053" H 57250 6000 50  0001 C CNN "LINK"
-	1    57250 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L eo-engine:Стабилитрон*3,9В*SOD80 VD37
-U 1 1 62449543
-P 55750 6750
-F 0 "VD37" V 56100 6100 138 0000 L CNN
-F 1 "Стабилитрон*3,9В*SOD80" H 55750 7350 50  0001 C CNN
-F 2 "N_VD_HL:SOD-80" H 55850 7250 50  0001 C CNN
-F 3 "" V 55750 6750 50  0001 C CNN
-F 4 "3,9В" V 55900 6150 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/567010" H 55750 6750 138 0001 C CNN "LINK"
-F 6 "1.4" H 55750 6750 138 0001 C CNN "COST"
-	1    55750 6750
-	0    -1   -1   0   
-$EndComp
-Text Label 58500 4500 2    138  ~ 0
-DIN10
-Text Label 54650 4500 0    138  ~ 0
-MC.DIN10
-Connection ~ 55750 4500
-Wire Wire Line
-	55750 4500 54600 4500
-Connection ~ 56750 4500
-Wire Wire Line
-	55750 4500 55750 4750
-Wire Wire Line
-	56750 4500 55750 4500
-Connection ~ 55750 5250
-Wire Wire Line
-	55750 5250 56750 5250
-$Comp
-L eo-engine:Конденсатор*0,1мкФ*25В*0603 C20
-U 1 1 6240B51B
-P 56750 5250
-F 0 "C20" H 56300 4850 138 0000 L CNN
-F 1 "Конденсатор*0,1мкФ*25В*0603" H 56650 5350 50  0001 C CNN
-F 2 "N_RLC:Конденсатор_SMD_IEC_0603" H 56750 5250 50  0001 C CNN
-F 3 "" H 56750 5250 50  0001 C CNN
-F 4 "0,1мкФ 25В" H 55350 5150 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/863311" H 56750 5250 50  0001 C CNN "LINK"
-F 6 "0.26" H 56750 5250 50  0001 C CNN "COST"
-	1    56750 5250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	56750 4500 56750 4750
-Wire Wire Line
-	57250 4500 56750 4500
-$Comp
-L eo-engine:#метка-GND #GND24
-U 1 1 6240B50C
-P 55750 5250
-F 0 "#GND24" H 55750 5300 50  0001 C CNN
-F 1 "#метка-GND" H 55800 5400 50  0001 C CNN
-F 2 "" H 55750 5250 50  0001 C CNN
-F 3 "" H 55750 5250 50  0001 C CNN
-	1    55750 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L eo-engine:Резистор*1кОм*0603 R56
-U 1 1 6240B502
-P 57250 4500
-F 0 "R56" H 57550 4700 138 0000 C CNN
-F 1 "Резистор*1кОм*0603" H 57250 5100 50  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 57350 5000 50  0001 C CNN
-F 3 "" V 57250 4500 50  0001 C CNN
-F 4 "1кОм" H 57550 4300 138 0000 C CNN "INFO"
-F 5 "0,14" H 57250 4500 50  0001 C CNN "COST"
-F 6 "https://www.terraelectronica.ru/product/2128053" H 57250 4500 50  0001 C CNN "LINK"
-	1    57250 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L eo-engine:Стабилитрон*3,9В*SOD80 VD36
-U 1 1 6240B4F7
-P 55750 5250
-F 0 "VD36" V 56100 4600 138 0000 L CNN
-F 1 "Стабилитрон*3,9В*SOD80" H 55750 5850 50  0001 C CNN
-F 2 "N_VD_HL:SOD-80" H 55850 5750 50  0001 C CNN
-F 3 "" V 55750 5250 50  0001 C CNN
-F 4 "3,9В" V 55900 4650 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/567010" H 55750 5250 138 0001 C CNN "LINK"
-F 6 "1.4" H 55750 5250 138 0001 C CNN "COST"
-	1    55750 5250
-	0    -1   -1   0   
-$EndComp
-Text Label 58500 3000 2    138  ~ 0
-DIN11
-Text Label 54650 3000 0    138  ~ 0
-MC.DIN11
-Connection ~ 55750 3000
-Wire Wire Line
-	55750 3000 54600 3000
-Connection ~ 56750 3000
-Wire Wire Line
-	55750 3000 55750 3250
-Wire Wire Line
-	56750 3000 55750 3000
-Connection ~ 55750 3750
-Wire Wire Line
-	55750 3750 56750 3750
-$Comp
-L eo-engine:Конденсатор*0,1мкФ*25В*0603 C19
-U 1 1 6240B4E1
-P 56750 3750
-F 0 "C19" H 56300 3350 138 0000 L CNN
-F 1 "Конденсатор*0,1мкФ*25В*0603" H 56650 3850 50  0001 C CNN
-F 2 "N_RLC:Конденсатор_SMD_IEC_0603" H 56750 3750 50  0001 C CNN
-F 3 "" H 56750 3750 50  0001 C CNN
-F 4 "0,1мкФ 25В" H 55350 3650 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/863311" H 56750 3750 50  0001 C CNN "LINK"
-F 6 "0.26" H 56750 3750 50  0001 C CNN "COST"
-	1    56750 3750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	56750 3000 56750 3250
-Wire Wire Line
-	57250 3000 56750 3000
-$Comp
-L eo-engine:#метка-GND #GND23
-U 1 1 6240B4D2
-P 55750 3750
-F 0 "#GND23" H 55750 3800 50  0001 C CNN
-F 1 "#метка-GND" H 55800 3900 50  0001 C CNN
-F 2 "" H 55750 3750 50  0001 C CNN
-F 3 "" H 55750 3750 50  0001 C CNN
-	1    55750 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L eo-engine:Резистор*1кОм*0603 R55
-U 1 1 6240B4C8
-P 57250 3000
-F 0 "R55" H 57550 3200 138 0000 C CNN
-F 1 "Резистор*1кОм*0603" H 57250 3600 50  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 57350 3500 50  0001 C CNN
-F 3 "" V 57250 3000 50  0001 C CNN
-F 4 "1кОм" H 57550 2800 138 0000 C CNN "INFO"
-F 5 "0,14" H 57250 3000 50  0001 C CNN "COST"
-F 6 "https://www.terraelectronica.ru/product/2128053" H 57250 3000 50  0001 C CNN "LINK"
-	1    57250 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L eo-engine:Стабилитрон*3,9В*SOD80 VD35
-U 1 1 6240B4BD
-P 55750 3750
-F 0 "VD35" V 56100 3100 138 0000 L CNN
-F 1 "Стабилитрон*3,9В*SOD80" H 55750 4350 50  0001 C CNN
-F 2 "N_VD_HL:SOD-80" H 55850 4250 50  0001 C CNN
-F 3 "" V 55750 3750 50  0001 C CNN
-F 4 "3,9В" V 55900 3150 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/567010" H 55750 3750 138 0001 C CNN "LINK"
-F 6 "1.4" H 55750 3750 138 0001 C CNN "COST"
-	1    55750 3750
-	0    -1   -1   0   
-$EndComp
-Text Label 58500 1500 2    138  ~ 0
-DIN12
-Text Label 54650 1500 0    138  ~ 0
-MC.DIN12
-Connection ~ 55750 1500
-Wire Wire Line
-	55750 1500 54600 1500
-Connection ~ 56750 1500
-Wire Wire Line
-	55750 1500 55750 1750
-Wire Wire Line
-	56750 1500 55750 1500
-Connection ~ 55750 2250
-Wire Wire Line
-	55750 2250 56750 2250
-$Comp
-L eo-engine:Конденсатор*0,1мкФ*25В*0603 C18
-U 1 1 6240B4A7
-P 56750 2250
-F 0 "C18" H 56300 1850 138 0000 L CNN
-F 1 "Конденсатор*0,1мкФ*25В*0603" H 56650 2350 50  0001 C CNN
-F 2 "N_RLC:Конденсатор_SMD_IEC_0603" H 56750 2250 50  0001 C CNN
-F 3 "" H 56750 2250 50  0001 C CNN
-F 4 "0,1мкФ 25В" H 55350 2150 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/863311" H 56750 2250 50  0001 C CNN "LINK"
-F 6 "0.26" H 56750 2250 50  0001 C CNN "COST"
-	1    56750 2250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	56750 1500 56750 1750
-Wire Wire Line
-	57250 1500 56750 1500
-$Comp
-L eo-engine:#метка-GND #GND22
-U 1 1 6240B498
-P 55750 2250
-F 0 "#GND22" H 55750 2300 50  0001 C CNN
-F 1 "#метка-GND" H 55800 2400 50  0001 C CNN
-F 2 "" H 55750 2250 50  0001 C CNN
-F 3 "" H 55750 2250 50  0001 C CNN
-	1    55750 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L eo-engine:Резистор*1кОм*0603 R54
-U 1 1 6240B48E
-P 57250 1500
-F 0 "R54" H 57550 1700 138 0000 C CNN
-F 1 "Резистор*1кОм*0603" H 57250 2100 50  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 57350 2000 50  0001 C CNN
-F 3 "" V 57250 1500 50  0001 C CNN
-F 4 "1кОм" H 57550 1300 138 0000 C CNN "INFO"
-F 5 "0,14" H 57250 1500 50  0001 C CNN "COST"
-F 6 "https://www.terraelectronica.ru/product/2128053" H 57250 1500 50  0001 C CNN "LINK"
-	1    57250 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L eo-engine:Стабилитрон*3,9В*SOD80 VD34
-U 1 1 6240B483
-P 55750 2250
-F 0 "VD34" V 56100 1600 138 0000 L CNN
-F 1 "Стабилитрон*3,9В*SOD80" H 55750 2850 50  0001 C CNN
-F 2 "N_VD_HL:SOD-80" H 55850 2750 50  0001 C CNN
-F 3 "" V 55750 2250 50  0001 C CNN
-F 4 "3,9В" V 55900 1650 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/567010" H 55750 2250 138 0001 C CNN "LINK"
-F 6 "1.4" H 55750 2250 138 0001 C CNN "COST"
-	1    55750 2250
-	0    -1   -1   0   
-$EndComp
 Text Label 58500 13500 2    138  ~ 0
 DIN4
 Text Label 54750 13500 0    138  ~ 0
@@ -4085,313 +3695,40 @@ F 6 "1.4" H 55750 18750 138 0001 C CNN "COST"
 	1    55750 18750
 	0    -1   -1   0   
 $EndComp
-Text Label 58500 12000 2    138  ~ 0
-DIN5
-Text Label 54750 12000 0    138  ~ 0
-MC.DIN5
-Connection ~ 55750 12000
-Wire Wire Line
-	55750 12000 54600 12000
-Connection ~ 56750 12000
-Wire Wire Line
-	55750 12000 55750 12250
-Wire Wire Line
-	56750 12000 55750 12000
-Connection ~ 55750 12750
-Wire Wire Line
-	55750 12750 56750 12750
-$Comp
-L eo-engine:Конденсатор*0,1мкФ*25В*0603 C25
-U 1 1 623B9AF6
-P 56750 12750
-F 0 "C25" H 56300 12350 138 0000 L CNN
-F 1 "Конденсатор*0,1мкФ*25В*0603" H 56650 12850 50  0001 C CNN
-F 2 "N_RLC:Конденсатор_SMD_IEC_0603" H 56750 12750 50  0001 C CNN
-F 3 "" H 56750 12750 50  0001 C CNN
-F 4 "0,1мкФ 25В" H 55350 12650 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/863311" H 56750 12750 50  0001 C CNN "LINK"
-F 6 "0.26" H 56750 12750 50  0001 C CNN "COST"
-	1    56750 12750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	56750 12000 56750 12250
-Wire Wire Line
-	57250 12000 56750 12000
-$Comp
-L eo-engine:#метка-GND #GND29
-U 1 1 623B9AE7
-P 55750 12750
-F 0 "#GND29" H 55750 12800 50  0001 C CNN
-F 1 "#метка-GND" H 55800 12900 50  0001 C CNN
-F 2 "" H 55750 12750 50  0001 C CNN
-F 3 "" H 55750 12750 50  0001 C CNN
-	1    55750 12750
-	1    0    0    -1  
-$EndComp
-$Comp
-L eo-engine:Резистор*1кОм*0603 R61
-U 1 1 623B9ADD
-P 57250 12000
-F 0 "R61" H 57550 12200 138 0000 C CNN
-F 1 "Резистор*1кОм*0603" H 57250 12600 50  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 57350 12500 50  0001 C CNN
-F 3 "" V 57250 12000 50  0001 C CNN
-F 4 "1кОм" H 57550 11800 138 0000 C CNN "INFO"
-F 5 "0,14" H 57250 12000 50  0001 C CNN "COST"
-F 6 "https://www.terraelectronica.ru/product/2128053" H 57250 12000 50  0001 C CNN "LINK"
-	1    57250 12000
-	1    0    0    -1  
-$EndComp
-$Comp
-L eo-engine:Стабилитрон*3,9В*SOD80 VD41
-U 1 1 623B9AD2
-P 55750 12750
-F 0 "VD41" V 56100 12100 138 0000 L CNN
-F 1 "Стабилитрон*3,9В*SOD80" H 55750 13350 50  0001 C CNN
-F 2 "N_VD_HL:SOD-80" H 55850 13250 50  0001 C CNN
-F 3 "" V 55750 12750 50  0001 C CNN
-F 4 "3,9В" V 55900 12150 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/567010" H 55750 12750 138 0001 C CNN "LINK"
-F 6 "1.4" H 55750 12750 138 0001 C CNN "COST"
-	1    55750 12750
-	0    -1   -1   0   
-$EndComp
-Text Label 58500 10500 2    138  ~ 0
-DIN6
-Text Label 54750 10500 0    138  ~ 0
-MC.DIN6
-Connection ~ 55750 10500
-Wire Wire Line
-	55750 10500 54600 10500
-Connection ~ 56750 10500
-Wire Wire Line
-	55750 10500 55750 10750
-Wire Wire Line
-	56750 10500 55750 10500
-Connection ~ 55750 11250
-Wire Wire Line
-	55750 11250 56750 11250
-$Comp
-L eo-engine:Конденсатор*0,1мкФ*25В*0603 C24
-U 1 1 62395248
-P 56750 11250
-F 0 "C24" H 56300 10850 138 0000 L CNN
-F 1 "Конденсатор*0,1мкФ*25В*0603" H 56650 11350 50  0001 C CNN
-F 2 "N_RLC:Конденсатор_SMD_IEC_0603" H 56750 11250 50  0001 C CNN
-F 3 "" H 56750 11250 50  0001 C CNN
-F 4 "0,1мкФ 25В" H 55350 11150 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/863311" H 56750 11250 50  0001 C CNN "LINK"
-F 6 "0.26" H 56750 11250 50  0001 C CNN "COST"
-	1    56750 11250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	56750 10500 56750 10750
-Wire Wire Line
-	57250 10500 56750 10500
-$Comp
-L eo-engine:#метка-GND #GND28
-U 1 1 62395239
-P 55750 11250
-F 0 "#GND28" H 55750 11300 50  0001 C CNN
-F 1 "#метка-GND" H 55800 11400 50  0001 C CNN
-F 2 "" H 55750 11250 50  0001 C CNN
-F 3 "" H 55750 11250 50  0001 C CNN
-	1    55750 11250
-	1    0    0    -1  
-$EndComp
-$Comp
-L eo-engine:Резистор*1кОм*0603 R60
-U 1 1 6239522F
-P 57250 10500
-F 0 "R60" H 57550 10700 138 0000 C CNN
-F 1 "Резистор*1кОм*0603" H 57250 11100 50  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 57350 11000 50  0001 C CNN
-F 3 "" V 57250 10500 50  0001 C CNN
-F 4 "1кОм" H 57550 10300 138 0000 C CNN "INFO"
-F 5 "0,14" H 57250 10500 50  0001 C CNN "COST"
-F 6 "https://www.terraelectronica.ru/product/2128053" H 57250 10500 50  0001 C CNN "LINK"
-	1    57250 10500
-	1    0    0    -1  
-$EndComp
-$Comp
-L eo-engine:Стабилитрон*3,9В*SOD80 VD40
-U 1 1 62395224
-P 55750 11250
-F 0 "VD40" V 56100 10600 138 0000 L CNN
-F 1 "Стабилитрон*3,9В*SOD80" H 55750 11850 50  0001 C CNN
-F 2 "N_VD_HL:SOD-80" H 55850 11750 50  0001 C CNN
-F 3 "" V 55750 11250 50  0001 C CNN
-F 4 "3,9В" V 55900 10650 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/567010" H 55750 11250 138 0001 C CNN "LINK"
-F 6 "1.4" H 55750 11250 138 0001 C CNN "COST"
-	1    55750 11250
-	0    -1   -1   0   
-$EndComp
-Text Label 58500 9000 2    138  ~ 0
-DIN7
-Text Label 54750 9000 0    138  ~ 0
-MC.DIN7
-Connection ~ 55750 9000
-Wire Wire Line
-	55750 9000 54600 9000
-Connection ~ 56750 9000
-Wire Wire Line
-	55750 9000 55750 9250
-Wire Wire Line
-	56750 9000 55750 9000
-Connection ~ 55750 9750
-Wire Wire Line
-	55750 9750 56750 9750
-$Comp
-L eo-engine:Конденсатор*0,1мкФ*25В*0603 C23
-U 1 1 6227F7DD
-P 56750 9750
-F 0 "C23" H 56300 9350 138 0000 L CNN
-F 1 "Конденсатор*0,1мкФ*25В*0603" H 56650 9850 50  0001 C CNN
-F 2 "N_RLC:Конденсатор_SMD_IEC_0603" H 56750 9750 50  0001 C CNN
-F 3 "" H 56750 9750 50  0001 C CNN
-F 4 "0,1мкФ 25В" H 55350 9650 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/863311" H 56750 9750 50  0001 C CNN "LINK"
-F 6 "0.26" H 56750 9750 50  0001 C CNN "COST"
-	1    56750 9750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	56750 9000 56750 9250
-Wire Wire Line
-	57250 9000 56750 9000
-$Comp
-L eo-engine:#метка-GND #GND27
-U 1 1 6221A6EB
-P 55750 9750
-F 0 "#GND27" H 55750 9800 50  0001 C CNN
-F 1 "#метка-GND" H 55800 9900 50  0001 C CNN
-F 2 "" H 55750 9750 50  0001 C CNN
-F 3 "" H 55750 9750 50  0001 C CNN
-	1    55750 9750
-	1    0    0    -1  
-$EndComp
-$Comp
-L eo-engine:Резистор*1кОм*0603 R59
-U 1 1 621D75A4
-P 57250 9000
-F 0 "R59" H 57550 9200 138 0000 C CNN
-F 1 "Резистор*1кОм*0603" H 57250 9600 50  0001 C CNN
-F 2 "N_RLC:Резистор_SMD_0603_0,065_Вт_pnp" H 57350 9500 50  0001 C CNN
-F 3 "" V 57250 9000 50  0001 C CNN
-F 4 "1кОм" H 57550 8800 138 0000 C CNN "INFO"
-F 5 "0,14" H 57250 9000 50  0001 C CNN "COST"
-F 6 "https://www.terraelectronica.ru/product/2128053" H 57250 9000 50  0001 C CNN "LINK"
-	1    57250 9000
-	1    0    0    -1  
-$EndComp
-$Comp
-L eo-engine:Стабилитрон*3,9В*SOD80 VD39
-U 1 1 621CEAD7
-P 55750 9750
-F 0 "VD39" V 56100 9100 138 0000 L CNN
-F 1 "Стабилитрон*3,9В*SOD80" H 55750 10350 50  0001 C CNN
-F 2 "N_VD_HL:SOD-80" H 55850 10250 50  0001 C CNN
-F 3 "" V 55750 9750 50  0001 C CNN
-F 4 "3,9В" V 55900 9150 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/567010" H 55750 9750 138 0001 C CNN "LINK"
-F 6 "1.4" H 55750 9750 138 0001 C CNN "COST"
-	1    55750 9750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L eo-engine:Клеммник*шаг_3,5*5контактов*1ряд*вертикальная XP16
-U 1 1 638EDB87
-P 59750 1500
-F 0 "XP16" H 59950 2050 138 0000 L CNN
-F 1 "Клеммник*шаг_3,5*5контактов*1ряд*вертикальная" H 59750 2000 50  0001 C CNN
-F 2 "N_X:Клеммник_15EDGVC-3.5-05P" H 59750 2200 50  0001 C CNN
-F 3 "" H 59750 1500 50  0001 C CNN
-F 4 "15EDGVC-3.5-05P" H 59750 0   138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/1294475" H 59750 2100 50  0001 C CNN "LINK"
-F 6 "11.9" H 59750 1500 50  0001 C CNN "COST"
-	1    59750 1500
-	1    0    0    -1  
-$EndComp
-NoConn ~ 59750 2700
 $Comp
 L eo-engine:Клеммник*шаг_3,5*5контактов*1ряд*вертикальная XP18
 U 1 1 634E76CA
-P 59750 13500
-F 0 "XP18" H 59950 14050 138 0000 L CNN
-F 1 "Клеммник*шаг_3,5*5контактов*1ряд*вертикальная" H 59750 14000 50  0001 C CNN
-F 2 "N_X:Клеммник_15EDGVC-3.5-05P" H 59750 14200 50  0001 C CNN
-F 3 "" H 59750 13500 50  0001 C CNN
-F 4 "15EDGVC-3.5-05P" H 59750 12000 138 0000 L CNN "INFO"
-F 5 "https://www.terraelectronica.ru/product/1294475" H 59750 14100 50  0001 C CNN "LINK"
-F 6 "11.9" H 59750 13500 50  0001 C CNN "COST"
-	1    59750 13500
+P 60500 13500
+F 0 "XP18" H 60700 14050 138 0000 L CNN
+F 1 "Клеммник*шаг_3,5*5контактов*1ряд*вертикальная" H 60500 14000 50  0001 C CNN
+F 2 "N_X:Клеммник_15EDGVC-3.5-05P" H 60500 14200 50  0001 C CNN
+F 3 "" H 60500 13500 50  0001 C CNN
+F 4 "15EDGVC-3.5-05P" H 60500 12000 138 0000 L CNN "INFO"
+F 5 "https://www.terraelectronica.ru/product/1294475" H 60500 14100 50  0001 C CNN "LINK"
+F 6 "11.9" H 60500 13500 50  0001 C CNN "COST"
+	1    60500 13500
 	1    0    0    -1  
 $EndComp
-NoConn ~ 59750 14700
 Wire Wire Line
-	57850 1500 59750 1500
-Wire Wire Line
-	57850 3000 58750 3000
-Wire Wire Line
-	58750 3000 58750 1800
-Wire Wire Line
-	58750 1800 59750 1800
-Wire Wire Line
-	57850 4500 59000 4500
-Wire Wire Line
-	59000 4500 59000 2100
-Wire Wire Line
-	59000 2100 59750 2100
-Wire Wire Line
-	57850 6000 59250 6000
-Wire Wire Line
-	59250 6000 59250 2400
-Wire Wire Line
-	59250 2400 59750 2400
-Wire Wire Line
-	57850 7500 59750 7500
-Wire Wire Line
-	57850 9000 58750 9000
-Wire Wire Line
-	58750 9000 58750 7800
-Wire Wire Line
-	58750 7800 59750 7800
-Wire Wire Line
-	57850 10500 59000 10500
-Wire Wire Line
-	59000 10500 59000 8100
-Wire Wire Line
-	59000 8100 59750 8100
-Wire Wire Line
-	57850 12000 59250 12000
-Wire Wire Line
-	59250 12000 59250 8400
-Wire Wire Line
-	59250 8400 59750 8400
-Wire Wire Line
-	57850 13500 59750 13500
+	57850 13500 60500 13500
 Wire Wire Line
 	57850 15000 58750 15000
 Wire Wire Line
 	58750 15000 58750 13800
 Wire Wire Line
-	58750 13800 59750 13800
+	58750 13800 60500 13800
 Wire Wire Line
 	57850 16500 59000 16500
 Wire Wire Line
 	59000 16500 59000 14100
 Wire Wire Line
-	59000 14100 59750 14100
+	59000 14100 60500 14100
 Wire Wire Line
 	57850 18000 59250 18000
 Wire Wire Line
 	59250 18000 59250 14400
 Wire Wire Line
-	59250 14400 59750 14400
-NoConn ~ 59750 8700
+	59250 14400 60500 14400
 $Comp
 L eo-engine:ico*LOGO_NIKITOS_10х10 X5
 U 1 1 64EF4770
@@ -5132,16 +4469,137 @@ Text Notes 9500 2000 0    138  ~ 0
 вход мб 12В,\nкондей заменить на 25В
 Wire Bus Line
 	12500 8000 21000 8000
+Text Notes 14250 9750 0    138  ~ 0
+требуется:\n8 транзисторных выходов 6А (5 подсветка, 1 ТТР, 2 запас)\n2 механических реле\n4 дискретных входа
+$Comp
+L eo-engine:#метка-GND #GND8
+U 1 1 63947327
+P 60000 14700
+F 0 "#GND8" H 60000 14750 50  0001 C CNN
+F 1 "#метка-GND" H 60050 14850 50  0001 C CNN
+F 2 "" H 60000 14700 50  0001 C CNN
+F 3 "" H 60000 14700 50  0001 C CNN
+	1    60000 14700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	60500 14700 60000 14700
+$Comp
+L elements:Транзистор_NPN_1Б-2(4)К-3Э_0 VT21
+U 1 1 63B1E6D0
+P 57000 3500
+F 0 "VT21" H 57603 3552 60  0000 L CNN
+F 1 "Транзистор_NPN_1Б-2(4)К-3Э_0" H 57603 3447 60  0001 L CNN
+F 2 "N_VD_HL:Транзистор_NPN_SOT223" H 57000 3500 60  0001 C CNN
+F 3 "" H 57000 3500 60  0001 C CNN
+F 4 "https://www.chipdip.ru/product/pbss4540z.115" H 57000 3500 50  0001 C CNN "LINK"
+F 5 "5А 40В" H 57600 3350 59  0000 L CNN "INFO"
+	1    57000 3500
+	1    0    0    -1  
+$EndComp
+Text Notes 57650 3800 0    50   ~ 0
+h21=100
+$Comp
+L elements:Транзистор_NPN_1Б-2(4)К-3Э_0 VT22
+U 1 1 63B86CC6
+P 57000 5000
+F 0 "VT22" H 57603 5052 60  0000 L CNN
+F 1 "Транзистор_NPN_1Б-2(4)К-3Э_0" H 57603 4947 60  0001 L CNN
+F 2 "N_VD_HL:Транзистор_NPN_SOT223" H 57000 5000 60  0001 C CNN
+F 3 "" H 57000 5000 60  0001 C CNN
+F 4 "https://www.chipdip.ru/product/pbss4540z.115" H 57000 5000 50  0001 C CNN "LINK"
+F 5 "5А 40В" H 57600 4850 59  0000 L CNN "INFO"
+	1    57000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L elements:Транзистор_NPN_1Б-2(4)К-3Э_0 VT23
+U 1 1 63BE1A39
+P 57000 6500
+F 0 "VT23" H 57603 6552 60  0000 L CNN
+F 1 "Транзистор_NPN_1Б-2(4)К-3Э_0" H 57603 6447 60  0001 L CNN
+F 2 "N_VD_HL:Транзистор_NPN_SOT223" H 57000 6500 60  0001 C CNN
+F 3 "" H 57000 6500 60  0001 C CNN
+F 4 "https://www.chipdip.ru/product/pbss4540z.115" H 57000 6500 50  0001 C CNN "LINK"
+F 5 "5А 40В" H 57600 6350 59  0000 L CNN "INFO"
+	1    57000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L elements:Транзистор_NPN_1Б-2(4)К-3Э_0 VT24
+U 1 1 63C3C161
+P 57000 8000
+F 0 "VT24" H 57603 8052 60  0000 L CNN
+F 1 "Транзистор_NPN_1Б-2(4)К-3Э_0" H 57603 7947 60  0001 L CNN
+F 2 "N_VD_HL:Транзистор_NPN_SOT223" H 57000 8000 60  0001 C CNN
+F 3 "" H 57000 8000 60  0001 C CNN
+F 4 "https://www.chipdip.ru/product/pbss4540z.115" H 57000 8000 50  0001 C CNN "LINK"
+F 5 "5А 40В" H 57600 7850 59  0000 L CNN "INFO"
+	1    57000 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L elements:Транзистор_NPN_1Б-2(4)К-3Э_0 VT25
+U 1 1 63C96562
+P 60000 3500
+F 0 "VT25" H 60603 3552 60  0000 L CNN
+F 1 "Транзистор_NPN_1Б-2(4)К-3Э_0" H 60603 3447 60  0001 L CNN
+F 2 "N_VD_HL:Транзистор_NPN_SOT223" H 60000 3500 60  0001 C CNN
+F 3 "" H 60000 3500 60  0001 C CNN
+F 4 "https://www.chipdip.ru/product/pbss4540z.115" H 60000 3500 50  0001 C CNN "LINK"
+F 5 "5А 40В" H 60600 3350 59  0000 L CNN "INFO"
+	1    60000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L elements:Транзистор_NPN_1Б-2(4)К-3Э_0 VT26
+U 1 1 63C9656E
+P 60000 5000
+F 0 "VT26" H 60603 5052 60  0000 L CNN
+F 1 "Транзистор_NPN_1Б-2(4)К-3Э_0" H 60603 4947 60  0001 L CNN
+F 2 "N_VD_HL:Транзистор_NPN_SOT223" H 60000 5000 60  0001 C CNN
+F 3 "" H 60000 5000 60  0001 C CNN
+F 4 "https://www.chipdip.ru/product/pbss4540z.115" H 60000 5000 50  0001 C CNN "LINK"
+F 5 "5А 40В" H 60600 4850 59  0000 L CNN "INFO"
+	1    60000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L elements:Транзистор_NPN_1Б-2(4)К-3Э_0 VT27
+U 1 1 63C9657A
+P 60000 6500
+F 0 "VT27" H 60603 6552 60  0000 L CNN
+F 1 "Транзистор_NPN_1Б-2(4)К-3Э_0" H 60603 6447 60  0001 L CNN
+F 2 "N_VD_HL:Транзистор_NPN_SOT223" H 60000 6500 60  0001 C CNN
+F 3 "" H 60000 6500 60  0001 C CNN
+F 4 "https://www.chipdip.ru/product/pbss4540z.115" H 60000 6500 50  0001 C CNN "LINK"
+F 5 "5А 40В" H 60600 6350 59  0000 L CNN "INFO"
+	1    60000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L elements:Транзистор_NPN_1Б-2(4)К-3Э_0 VT28
+U 1 1 63C96586
+P 60000 8000
+F 0 "VT28" H 60603 8052 60  0000 L CNN
+F 1 "Транзистор_NPN_1Б-2(4)К-3Э_0" H 60603 7947 60  0001 L CNN
+F 2 "N_VD_HL:Транзистор_NPN_SOT223" H 60000 8000 60  0001 C CNN
+F 3 "" H 60000 8000 60  0001 C CNN
+F 4 "https://www.chipdip.ru/product/pbss4540z.115" H 60000 8000 50  0001 C CNN "LINK"
+F 5 "5А 40В" H 60600 7850 59  0000 L CNN "INFO"
+	1    60000 8000
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	5500 20000 12500 20000
+Wire Bus Line
+	54500 1000 54500 21000
 Wire Bus Line
 	29250 1000 29250 21000
 Wire Bus Line
 	42500 1000 42500 21000
 Wire Bus Line
 	1500 2600 1500 13900
-Wire Bus Line
-	54500 1000 54500 21000
 Wire Bus Line
 	5500 8000 5500 20000
 Wire Bus Line

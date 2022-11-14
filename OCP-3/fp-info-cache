@@ -1,4 +1,4 @@
-54201587349412
+55846968982577
 N_VD_HL
 D_SOD-323_HandSoldering
 SOD-323
@@ -27,6 +27,13 @@ LED-7SEGM-10x6,9
 0
 10
 10
+N_VD_HL
+LED-RGB-5mm-выводной, угловой
+
+
+0
+4
+4
 N_VD_HL
 LED_D3.0mm
 LED, diameter 3.0mm, 2 pins
