@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name OCP-2-rescue)(type Legacy)(uri ${KIPRJMOD}/OCP-2-rescue.lib)(options "")(descr ""))
+  (lib (name OCP-3-rescue)(type Legacy)(uri ${KIPRJMOD}/OCP-3-rescue.lib)(options "")(descr ""))
+)
